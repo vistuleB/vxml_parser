@@ -12,7 +12,7 @@ packages = [
 ]
 
 [requirements]
-blamedlines = { git = "git@github.com:vistuleB/blamedlines", ref = "583ddcf" }
+blamedlines = { git = "git@github.com:vistuleB/blamedlines", ref = "main" }
 gleam_regexp = { version = ">= 1.0.0 and < 2.0.0" }
 gleam_stdlib = { version = ">= 0.34.0 and < 2.0.0" }
 gleeunit = { version = ">= 1.0.0 and < 2.0.0" }
