@@ -1,44 +1,38 @@
-<> vxmlSample
-    attr1 mom
-    attr2 dad
-    <> WriterlyBlurb
-        <>
-            "this is a text child"
-            "with two lines"
-            "with two lines"
-            "with two lines"
-    <>
-        "more text here"
-    <> html
-        <> header
-            charset utf-8
-        <> body
-            <> WriterlyBlurb
-                <>
-                    "some text"
-                    "more text"
-                    "further text"
-            <> WriterlyBlurb
-                <>
-                    "consecutive text"
-                    "node"
-        <> goda
-            <> child1
-                attr5 value23
-            <> child2
+<> html
+    <> head
+        <> link
+            rel icon
+            href logo.png
+        <> title
             <>
-                "hello I am child3, with some math:"
-                "$$a^2 + b^2 = c^2$$"
-                "and more math:"
-                "$$"
-                "a^2 + b^2 = c^2"
-                "$$"
-                "and this time"
-                "we do it in the midle $$a + b = c$$ but"
-                "we can also try across... $$a + b"
-                " = c$$ ...two lines, or $$"
-                "z + w  = q$$"
-                "..starting at the end of a line; anyway,"
-                "various combinations!"
-            <> child4
-<> yello
+                "Sample HTML Page"
+        <> link
+            rel stylesheet
+            href css/main.css
+        <> meta
+            http-equiv Content-Type
+            content text/html;charset=utf-8;
+    <> body
+        <> div
+            id container
+            <> h1
+                <>
+                    "Big H1 title"
+            <> p
+                <>
+                    "Hello "
+                <> i
+                    <>
+                        "dear user"
+                <>
+                    ", this is our"
+                    "first "
+                <> b
+                    <>
+                        "paragraph"
+                <>
+                    "."
+            <> p
+                <>
+                    "This shall be "
+                    "a second paragraph."
