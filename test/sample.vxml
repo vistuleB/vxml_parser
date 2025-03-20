@@ -34,5 +34,5 @@
                     "."
             <> p
                 <>
-                    "This shall be "
+                    "This shall be"
                     "a second paragraph."
